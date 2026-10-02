@@ -1,5 +1,12 @@
 # Criptografia Simples em C
 
+## Integrantes
+
+- Maria Eduarda Santos Guedes - 48216810
+- Millena Dias Santana - 47555041
+- Raquel Guimarães Pereira - 47813369
+- Yasmin Helena Marinho Pinda - 47740981
+
 Projeto desenvolvido para a disciplina **Algoritmo e Pensamento Computacional**.
 
 O programa utiliza a **Cifra de César** combinada com sequências numéricas para realizar uma criptografia simples em uma palavra de até 15 letras.
@@ -109,13 +116,6 @@ Resultados:
 | PG (razão 2) | `GTYLVJD` |
 | Primos | `HUZKQQI` |
 
-
-## Integrantes
-
-- Maria Eduarda Santos Guedes - 48216810
-- Millena Dias Santana - 47555041
-- Raquel Guimarães Pereira - 47813369
-- Yasmin Helena Marinho Pinda - 47740981
 
 ## Informações
 
