@@ -5,7 +5,7 @@
 #define MAX_LETRAS 15
 
 /* =========================================================
-   PESSOA 1 - CRIPTOGRAFIA
+   PESSOA 1(Duda) - CRIPTOGRAFIA
    ========================================================= */
 
 /* Primeira camada: cifra de Cesar com SHIFT fixo */
@@ -26,7 +26,6 @@ char cifrarCaesar(char letra, int shift)
     return letra;
 }
 
-/* Segunda camada: SHIFT dinamico usando a sequencia */
 char cifrarLetra(char letra, int shiftFixo, int termoSequencia)
 {
     int deslocamentoTotal;
@@ -49,10 +48,10 @@ char cifrarLetra(char letra, int shiftFixo, int termoSequencia)
 
 
 /* =========================================================
-   PESSOA 2 - SEQUENCIAS MATEMATICAS
+   PESSOA 2(Yas) - SEQUENCIAS MATEMATICAS
    ========================================================= */
 
-/* Fibonacci: 1, 1, 2, 3, 5, 8, 13... */
+
 int fibonacci(int posicao)
 {
     int a = 1;
@@ -75,14 +74,14 @@ int fibonacci(int posicao)
 }
 
 
-/* PA: 1, 2, 3, 4... ou com razao escolhida */
+
 int termoPA(int posicao, int razao)
 {
     return 1 + (posicao * razao);
 }
 
 
-/* PG: 1, 2, 4, 8... ou com razao escolhida */
+
 int termoPG(int posicao, int razao)
 {
     int termo = 1;
@@ -96,7 +95,6 @@ int termoPG(int posicao, int razao)
 }
 
 
-/* Verifica se um numero e primo */
 int ehPrimo(int numero)
 {
     if (numero < 2)
@@ -116,7 +114,6 @@ int ehPrimo(int numero)
 }
 
 
-/* Retorna o n-esimo numero primo */
 int termoPrimo(int posicao)
 {
     int numero = 2;
@@ -140,7 +137,7 @@ int termoPrimo(int posicao)
 
 
 /* =========================================================
-   ESCOLHA DA SEQUENCIA
+   (Rah) ESCOLHA DA SEQUENCIA
    ========================================================= */
 
 int obterTermoSequencia(int tipo, int posicao, int razao)
@@ -355,7 +352,7 @@ int main()
             }
 
 
-            /* Verifica se existem somente letras */
+           
 
             int palavraValida = 1;
 
@@ -383,15 +380,13 @@ int main()
             }
 
 
-            /* SHIFT */
-
             printf("\nDigite o valor do SHIFT: ");
             scanf("%d", &shiftFixo);
 
             while (getchar() != '\n');
 
 
-            /* Sequencia */
+            
 
             printf("\n");
             printf("====================================\n");
@@ -418,8 +413,6 @@ int main()
                 continue;
             }
 
-
-            /* Razao da PA ou PG */
 
             razao = 1;
 
@@ -489,8 +482,6 @@ int main()
             }
 
 
-            /* Criptografia */
-
             for (int i = 0; i < tamanho; i++)
             {
                 int termo;
@@ -513,7 +504,6 @@ int main()
             palavraCodificada[tamanho] = '\0';
 
 
-            /* Mostra resultado */
 
             printf("\n");
             printf("====================================\n");
@@ -556,7 +546,6 @@ int main()
             printf("====================================\n");
 
 
-            /* Salva os arquivos */
 
             salvarResultado(
                 palavraSecreta,
