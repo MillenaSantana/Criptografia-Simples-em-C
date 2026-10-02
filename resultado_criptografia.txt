@@ -1,0 +1,7 @@
+RESULTADO DA CRIPTOGRAFIA
+==========================
+Palavra original: CORACAO
+Palavra codificada: HUZKQQI
+SHIFT: 3
+Tipo: Primos
+Letras: 7

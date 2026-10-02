@@ -1,0 +1,46 @@
+====================================
+LOG DE EXECUCAO
+====================================
+Palavra original: CORACAO
+SHIFT: 3
+Sequencia: Fibonacci
+Palavra criptografada: GSWGKLE
+Quantidade de letras: 7
+Execucao concluida.
+====================================
+
+====================================
+LOG DE EXECUCAO
+====================================
+Palavra original: CORACAO
+SHIFT: 3
+Sequencia: PA
+Razao: 3
+Palavra criptografada: GVBNSTK
+Quantidade de letras: 7
+Execucao concluida.
+====================================
+
+====================================
+LOG DE EXECUCAO
+====================================
+Palavra original: CORACAO
+SHIFT: 3
+Sequencia: PG
+Razao: 2
+Palavra criptografada: GTYLVJD
+Quantidade de letras: 7
+Execucao concluida.
+====================================
+
+====================================
+LOG DE EXECUCAO
+====================================
+Palavra original: CORACAO
+SHIFT: 3
+Sequencia: Primos
+Palavra criptografada: HUZKQQI
+Quantidade de letras: 7
+Execucao concluida.
+====================================
+
